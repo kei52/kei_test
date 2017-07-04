@@ -9,6 +9,8 @@ y = tf.placeholder(tf.float32, shape=[None,1])
 a = tf.Variable(tf.random_normal(shape=[]))
 b = tf.Variable(tf.random_normal(shape=[]))
 n = tf.shape(x)[0]
+
+
 xx = tf.matmul(tf.transpose(x),x)
 yy = tf.matmul(tf.transpose(y),y)
 xy = tf.matmul(tf.transpose(x),y)
