@@ -1,0 +1,6 @@
+main()
+{
+    int i,j;
+    int ip[N][m];
+    int hst[NGL];
+}
